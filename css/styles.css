@@ -1,0 +1,205 @@
+body {
+  font-family: "Montserrat-semi-bold" 600;
+}
+
+
+h2 {
+  font-family: "Montserrat-Bold";
+  line-height: 1.5;
+  font-size: 3rem;
+}
+
+
+/* ---------------------------------------------------------CLASS--------------------------------------------------------*/
+
+/* <-----------------------------Container Fluid & Title------------------------------> */
+.container-fluid {
+  padding: 3% 15% 8%;
+  padding-bottom: 212px;
+}
+
+/* <-----------------Navigation Bar----------------------> */
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-link {
+  font-size: 1.4rem;
+  font-family: "Montserrat-Light";
+}
+/* <-----------------Navigation Bar----------------------> */
+.heading {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  font-size: 3.5rem;
+}
+
+/* <-------------------Download Button---------------------> */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+/* <-------------------Download Button---------------------> */
+.title-image {
+  width: 80%;
+  padding-left: 14%;
+  transform: rotate(25deg);
+  position: absolute;
+}
+/* <-----------------------------Container Fluid & Title------------------------------> */
+
+
+
+/* <---------------------------------Features and Row---------------------------------> */
+.feature {
+  text-align: center;
+  padding: 5%;
+  font-family: "Montserrat-Bold";
+}
+
+.icon {
+  color: #ef8172;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+/* <---------------------------------Features and Row---------------------------------> */
+
+
+
+/* <-----------------------Testimonials-Carousels & Testimonials----------------------> */
+.testimonials-carousel {
+  background-color: #ef8172;
+  text-align: center;
+  padding: 7% 15%;
+  color: white;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-arrow:hover{
+  transform: scale(2);
+}
+/* <-----------------------Testimonials-Carousels & Testimonials----------------------> */
+
+
+
+/* <--------------------------------------Press----------------------------------------> */
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+/* <--------------------------------------Press----------------------------------------> */
+
+
+
+/* <======================================Pricing=======================================> */
+.pricing-column {
+  padding: 3%;
+}
+/* <======================================Pricing=======================================> */
+
+
+
+/* <--------------------------------------Footer----------------------------------------> */
+.foo:hover{
+  color: grey;
+  transform: scale(2);
+}
+/* <--------------------------------------Footer----------------------------------------> */
+
+/* ---------------------------------------------------------CLASS--------------------------------------------------------*/
+
+
+
+
+
+/* -----------------------------------------------------------ID---------------------------------------------------------*/
+#title {
+  background-color: #ff4c68;
+  color: white;
+}
+
+#features {
+  padding: 8% 12%;
+  background-color: white;
+  position: relative;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+#pricing {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 8% 12%;
+  color: white;
+}
+
+#footer{
+  padding: 2% 12% 0%;
+  text-align: center;
+  background-color: white;
+}
+/* -----------------------------------------------------------ID---------------------------------------------------------*/
+
+
+
+
+
+/* --------------------------------------------------------@media query--------------------------------------------------*/
+@media (max-width: 990px){
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+@media (min-width: 986px) and (max-width: 1180px) {
+  .heading{
+    text-align: center;
+  }
+
+  .b1{
+    margin-left: 68px;
+    margin-top: 9.52px;
+  }
+
+  .b2{
+    margin-top: 9.52px;
+  }
+
+  .title-image{
+    left: 58px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1033px) {
+  .b1{
+    margin-left: 38px;
+  }
+}
+
+@media (min-width: 1181px) and (max-width: 1293px) {
+  .heading{
+    text-align: center;
+  }
+}
+/* --------------------------------------------------------@media query--------------------------------------------------*/
